@@ -13678,16 +13678,16 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 <part name="R12" library="resistor" deviceset="R-US_" device="R0805W" value="100k"/>
 <part name="R13" library="resistor" deviceset="R-US_" device="R0805W" value="100k"/>
 <part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="TX" library="pot" deviceset="TRIM_US-" device="B25P" value="200K"/>
-<part name="RX" library="pot" deviceset="TRIM_US-" device="B25P" value="200K"/>
+<part name="TX" library="pot" deviceset="TRIM_US-" device="B25P" value="100K"/>
+<part name="RX" library="pot" deviceset="TRIM_US-" device="B25P" value="50K"/>
 <part name="Q3" library="adafruit" deviceset="MOSFET-N" device="REFLOW" value="IRLML2060"/>
 <part name="R21" library="resistor" deviceset="R-US_" device="R0805W" value="330"/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="D3" library="adafruit" deviceset="LED" device="CHIPLED_0805" value="Red 0805"/>
 <part name="R22" library="resistor" deviceset="R-US_" device="R0805W" value="2.7K"/>
 <part name="Q5" library="microbuilder" deviceset="MOSFET-N" device="REFLOW" value="2N7002"/>
-<part name="R23" library="resistor" deviceset="R-US_" device="R0805W" value="100"/>
-<part name="R24" library="resistor" deviceset="R-US_" device="R0805W" value="2.2M"/>
+<part name="R23" library="resistor" deviceset="R-US_" device="R0805W" value="330"/>
+<part name="R24" library="resistor" deviceset="R-US_" device="R0805W" value="1M"/>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="R25" library="resistor" deviceset="R-US_" device="R0805W" value="100K"/>
@@ -13711,7 +13711,7 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="100n"/>
 <part name="C15" library="resistor" deviceset="C-EU" device="C0805" value="1u"/>
-<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="100p"/>
+<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="470p"/>
 <part name="JP1" library="SparkFun-Connectors" deviceset="M13X2" device="2X13"/>
 <part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="470p"/>
 <part name="C17" library="resistor" deviceset="C-EU" device="C0805" value="470p"/>
@@ -13722,7 +13722,7 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 <part name="JP3" library="microbuilder" deviceset="HEADER-1X1" device="ROUND" value="RX_FB"/>
 <part name="JP4" library="microbuilder" deviceset="HEADER-1X1" device="ROUND" value="TXOUT"/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="D4" library="diode" deviceset="DIODE-" device="MICROMELF-R" value="1N4001"/>
+<part name="D4" library="diode" deviceset="DIODE-" device="MICROMELF-R" value="DNI"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="creativecommons" deviceset="CC-BY-NC-SA" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
@@ -13736,9 +13736,9 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 <instance part="R4" gate="G$1" x="93.98" y="132.08" rot="R90"/>
 <instance part="R3" gate="G$1" x="83.82" y="127"/>
 <instance part="Q1" gate="G$1" x="104.14" y="182.88" rot="R90"/>
-<instance part="C7" gate="G$1" x="182.88" y="127"/>
-<instance part="C8" gate="G$1" x="175.26" y="127"/>
-<instance part="C1" gate="G$1" x="190.5" y="127"/>
+<instance part="C7" gate="G$1" x="185.42" y="127"/>
+<instance part="C8" gate="G$1" x="177.8" y="127"/>
+<instance part="C1" gate="G$1" x="193.04" y="127"/>
 <instance part="C3" gate="G$1" x="86.36" y="187.96" rot="R90"/>
 <instance part="C6" gate="G$1" x="101.6" y="132.08"/>
 <instance part="C4" gate="G$1" x="170.18" y="182.88"/>
@@ -13807,7 +13807,7 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 <instance part="D4" gate="G$1" x="172.72" y="78.74" rot="R90"/>
 <instance part="GND9" gate="1" x="121.92" y="53.34"/>
 <instance part="U$1" gate="G$1" x="254" y="-43.18"/>
-<instance part="+3V5" gate="G$1" x="167.64" y="111.76" rot="R270"/>
+<instance part="+3V5" gate="G$1" x="170.18" y="116.84" rot="R270"/>
 </instances>
 <busses>
 </busses>
@@ -13871,16 +13871,16 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 </net>
 <net name="N$4" class="0">
 <segment>
-<wire x1="160.02" y1="132.08" x2="175.26" y2="132.08" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="132.08" x2="175.26" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="132.08" x2="177.8" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="132.08" x2="177.8" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="DOC2"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<wire x1="160.02" y1="137.16" x2="182.88" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="137.16" x2="182.88" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="137.16" x2="185.42" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="137.16" x2="185.42" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="U1" gate="G$1" pin="DOC1"/>
 </segment>
@@ -13894,13 +13894,13 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 </net>
 <net name="TXOUT" class="0">
 <segment>
-<wire x1="180.34" y1="142.24" x2="190.5" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="142.24" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
-<junction x="190.5" y="142.24"/>
+<wire x1="180.34" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="142.24" x2="193.04" y2="129.54" width="0.1524" layer="91"/>
+<junction x="193.04" y="142.24"/>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <label x="208.28" y="142.24" size="1.778" layer="95"/>
-<wire x1="190.5" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="142.24" x2="203.2" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="142.24" x2="218.44" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="142.24" x2="218.44" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="134.62" x2="228.6" y2="134.62" width="0.1524" layer="91"/>
@@ -14049,26 +14049,26 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 </net>
 <net name="GND" class="1">
 <segment>
-<wire x1="160.02" y1="127" x2="170.18" y2="127" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="127" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="121.92" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="160.02" y1="121.92" x2="170.18" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="121.92" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="116.84" x2="190.5" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="116.84" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
-<wire x1="182.88" y1="121.92" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="116.84" x2="175.26" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="127" x2="172.72" y2="127" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="127" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="121.92" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="121.92" x2="172.72" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="121.92" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="177.8" y1="116.84" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="116.84" x2="193.04" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="116.84" x2="193.04" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="121.92" x2="185.42" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="116.84" x2="177.8" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="116.84" x2="106.68" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="116.84" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="106.68" y1="106.68" x2="170.18" y2="106.68" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="106.68" x2="170.18" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="106.68" y1="106.68" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="172.72" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="104.14" x2="106.68" y2="106.68" width="0.1524" layer="91"/>
-<junction x="170.18" y="121.92"/>
-<junction x="170.18" y="116.84"/>
-<junction x="175.26" y="116.84"/>
-<junction x="182.88" y="116.84"/>
-<junction x="190.5" y="116.84"/>
+<junction x="172.72" y="121.92"/>
+<junction x="172.72" y="116.84"/>
+<junction x="177.8" y="116.84"/>
+<junction x="185.42" y="116.84"/>
+<junction x="193.04" y="116.84"/>
 <junction x="106.68" y="106.68"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -14357,10 +14357,8 @@ Source: &lt;a href="http://ww1.microchip.com/downloads/en/DeviceDoc/21733h.pdf"&
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="BT"/>
-<wire x1="160.02" y1="116.84" x2="162.56" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="162.56" y1="116.84" x2="162.56" y2="111.76" width="0.1524" layer="91"/>
 <pinref part="+3V5" gate="G$1" pin="+3V3"/>
-<wire x1="162.56" y1="111.76" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="160.02" y1="116.84" x2="167.64" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$24" class="0">

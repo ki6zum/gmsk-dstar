@@ -1290,10 +1290,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C11" library="resistor" package="C0805" value="1u" x="18.2118" y="32.9184" smashed="yes">
 <attribute name="NAME" x="17.8816" y="33.9344" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
-<element name="TX" library="pot" package="B25P" value="200K" x="24.2062" y="27.5844" smashed="yes">
+<element name="TX" library="pot" package="B25P" value="100K" x="24.2062" y="27.5844" smashed="yes">
 <attribute name="NAME" x="17.78" y="28.0162" size="1.6764" layer="25" font="vector" ratio="18"/>
 </element>
-<element name="RX" library="pot" package="B25P" value="200K" x="24.2062" y="34.798" smashed="yes">
+<element name="RX" library="pot" package="B25P" value="50K" x="24.2062" y="34.798" smashed="yes">
 <attribute name="NAME" x="17.8562" y="35.2806" size="1.6764" layer="25" font="vector" ratio="18"/>
 </element>
 <element name="Q3" library="adafruit" package="SOT23" value="IRLML2060" x="26.2636" y="20.4724" smashed="yes" rot="R180">
@@ -1313,10 +1313,10 @@ Please make sure your boards conform to these design rules.</description>
 <element name="Q5" library="microbuilder" package="SOT23-R" value="2N7002" x="21.9456" y="20.828" smashed="yes" rot="R180">
 <attribute name="NAME" x="22.2504" y="22.5806" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
-<element name="R23" library="resistor" package="R0805W" value="100" x="21.4122" y="21.082" smashed="yes" rot="MR180">
+<element name="R23" library="resistor" package="R0805W" value="330" x="21.4122" y="21.082" smashed="yes" rot="MR180">
 <attribute name="NAME" x="24.4856" y="21.844" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
-<element name="R24" library="resistor" package="R0805W" value="2.2M" x="17.0434" y="21.082" smashed="yes" rot="R180">
+<element name="R24" library="resistor" package="R0805W" value="1M" x="17.0434" y="21.082" smashed="yes" rot="R180">
 <attribute name="NAME" x="15.0368" y="21.9964" size="0.8128" layer="25" font="vector" ratio="18"/>
 </element>
 <element name="R25" library="resistor" package="R0805W" value="100K" x="30.5816" y="20.2184" smashed="yes">
@@ -1352,7 +1352,7 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C15" library="resistor" package="C0805" value="1u" x="30.4038" y="14.3764" smashed="yes" rot="MR180">
 <attribute name="NAME" x="30.1498" y="15.4432" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
-<element name="C16" library="resistor" package="C0805" value="100p" x="26.0604" y="20.955" smashed="yes" rot="MR0">
+<element name="C16" library="resistor" package="C0805" value="470p" x="26.0604" y="20.955" smashed="yes" rot="MR0">
 <attribute name="NAME" x="27.813" y="21.971" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 </element>
 <element name="JP1" library="SparkFun-Connectors" package="2X13" value="M13X22X13" x="31.8" y="3.9304" smashed="yes" rot="R180">
@@ -1386,7 +1386,7 @@ Please make sure your boards conform to these design rules.</description>
 <attribute name="NAME" x="5.4864" y="33.2232" size="0.8128" layer="25" font="vector" ratio="18"/>
 <attribute name="VALUE" x="5.5626" y="28.9306" size="0.4064" layer="27" ratio="10"/>
 </element>
-<element name="D4" library="diode" package="MICROMELF-R" value="1N4001" x="30.5816" y="21.6916" smashed="yes" rot="MR180">
+<element name="D4" library="diode" package="MICROMELF-R" value="DNI" x="30.5816" y="21.6916" smashed="yes" rot="MR180">
 <attribute name="NAME" x="32.0112" y="22.56" size="0.8128" layer="26" font="vector" ratio="18" rot="MR0"/>
 <attribute name="VALUE" x="29.3806" y="23.7546" size="1.27" layer="28" rot="MR180"/>
 </element>
